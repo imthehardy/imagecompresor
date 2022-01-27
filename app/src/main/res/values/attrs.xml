@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ef_ProgressWheel">
+        <attr name="ef_matProg_progressIndeterminate" format="boolean" />
+        <attr name="ef_matProg_barColor" format="color" />
+        <attr name="ef_matProg_rimColor" format="color" />
+        <attr name="ef_matProg_rimWidth" format="dimension" />
+        <attr name="ef_matProg_spinSpeed" format="float" />
+        <attr name="ef_matProg_barSpinCycleTime" format="integer" />
+        <attr name="ef_matProg_circleRadius" format="dimension" />
+        <attr name="ef_matProg_fillRadius" format="boolean" />
+        <attr name="ef_matProg_barWidth" format="dimension" />
+        <attr name="ef_matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ucrop_UCropView">
+        <attr name="ucrop_aspect_ratio_x" format="float"/>
+        <attr name="ucrop_aspect_ratio_y" format="float"/>
+        <attr name="ucrop_show_oval_crop_frame" format="boolean"/>
+        <attr name="ucrop_circle_dimmed_layer" format="boolean"/>
+        <attr name="ucrop_dimmed_color" format="color"/>
+        <attr name="ucrop_grid_stroke_size" format="dimension"/>
+        <attr name="ucrop_grid_color" format="color"/>
+        <attr name="ucrop_grid_row_count" format="integer"/>
+        <attr name="ucrop_grid_column_count" format="integer"/>
+        <attr name="ucrop_show_grid" format="boolean"/>
+        <attr name="ucrop_frame_stroke_size" format="dimension"/>
+        <attr name="ucrop_frame_color" format="color"/>
+        <attr name="ucrop_show_frame" format="boolean"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="ucrop_AspectRatioTextView">
+        <attr name="ucrop_artv_ratio_title" format="string"/>
+        <attr name="ucrop_artv_ratio_x" format="float"/>
+        <attr name="ucrop_artv_ratio_y" format="float"/>
+    </declare-styleable>
+
+    <attr name="popupTextAlignment" format="enum">
+        <enum name="start" value="0" />
+        <enum name="end" value="1" />
+        <enum name="center" value="2" />
+    </attr>
+
+    <declare-styleable name="NiceSpinner">
+        <attr name="arrowTint" format="color" />
+        <attr name="hideArrow" format="boolean" />
+        <attr name="arrowDrawable" format="reference|color" />
+        <attr name="dropDownListPaddingBottom" format="dimension" />
+        <attr name="backgroundSelector" format="integer" />
+        <attr name="textTint" format="color" />
+        <attr name="popupTextAlignment" />
+        <attr name="entries" format="reference" />
+    </declare-styleable>
+</resources>
